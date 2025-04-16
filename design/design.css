@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+title {
+  font-family: syne;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: url(/resources/25_FRD_RGR_60742_xlt_vlb.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+body header {
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  color: rgba(238, 238, 238, 0.9333333333);
+  z-index: 1000;
+}
+body header nav {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body header nav aside {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: syne;
+  color: rgba(238, 238, 238, 0.9333333333);
+  text-transform: capitalize;
+}
+body header nav aside ul {
+  display: flex;
+  gap: 20pt;
+  list-style: none;
+}
+body header nav aside ul li a {
+  color: rgba(238, 238, 238, 0.9333333333);
+  text-decoration: none;
+  font-family: poppins;
+}
+body main {
+  position: relative;
+  top: 10vh;
+  height: 90vh;
+  width: 100%;
+}
+body main div {
+  height: 100%;
+  width: 100%;
+}
+body main section {
+  height: 50%;
+  width: 100%;
+}
+body main #main-section-top {
+  display: flex;
+}
+body main #main-section-top aside {
+  height: 100%;
+  width: 50%;
+}
+body main #main-section-top #section-top-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3px;
+}
+body main #main-section-top #section-top-right h1 {
+  font-family: syne;
+  font-size: 52pt;
+  color: white;
+  font-stretch: condensed;
+}
+body main #main-section-top #section-top-right blockquote {
+  color: white;
+  font-family: poppins;
+  font-stretch: extra-expanded;
+}
+body main #main-section-top #section-top-right button {
+  height: 1cm;
+  width: 4cm;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+  background-color: blue;
+  outline: none;
+  border: none;
+  font-family: poppins;
+  cursor: none;
+}
+body main #main-section-top #section-top-right button a {
+  text-decoration: none;
+  color: white;
+  cursor: none;
+}
+body main #main-section-top #section-top-right button:hover button {
+  scale: 2%;
+}
+body main #main-section-below {
+  background-color: white;
+  display: flex;
+}
+body main #main-section-below aside {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main #main-section-below #section-below-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10pt;
+}
+body main #main-section-below #section-below-right h1 {
+  font-family: syne;
+  font-size: 2.5rem;
+}
+body main #main-section-below #section-below-right p {
+  font-family: poppins;
+}
+body main #main-section-below #section-below-right button {
+  outline: none;
+  border: none;
+  background-color: blue;
+  color: white;
+  height: 2.5vw;
+  width: 8vw;
+  border-radius: 5px;
+  font-family: poppins;
+  cursor: pointer;
+}
+body main #main-section-below #section-below-right button a {
+  text-decoration: none;
+  color: white;
+}
+body main #main-section-below #section-below-left #aside-below-video {
+  width: 60vw;
+  height: 33.75vw;
+  max-width: 480px;
+  max-height: 270px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+body main #main-section-below #section-below-left #aside-below-video video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+body main #main-section-below #section-below-left #aside-below-video article {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  background: rgba(0, 0, 0, 0.5);
+  transform: translateY(0%);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main #main-section-below #section-below-left #aside-below-video:hover article {
+  transform: translateY(0);
+}/*# sourceMappingURL=design.css.map */
